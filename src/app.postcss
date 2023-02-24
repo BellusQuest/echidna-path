@@ -1,0 +1,31 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .content > a {
+        @apply font-bold text-blue-100 hover:opacity-80 duration-700 transition;
+    }
+    .content > ul {
+        @apply list-decimal px-6
+    }
+    .content > ul > li > a {
+        @apply font-bold text-blue-100 hover:opacity-80 duration-700 transition;
+    }
+    .content > ol {
+        @apply list-decimal px-6
+    }
+    .content > h3 {
+        @apply text-lg font-bold;
+    }
+
+    .footer-button {
+        @apply text-xs text-gray-500 hover:opacity-80 duration-500 transition;
+    }
+
+    .table-of-content {
+        font-family: 'Playfair Display', sans-serif;
+        @apply text-blue-300 hover:opacity-80 duration-500 transition;
+    }
+}

@@ -1,0 +1,24 @@
+---
+title: Celina Tower
+rank: 6
+---
+
+You can view this article by using the `/celina info` command.
+
+Celina Tower is a tower full of simulated dimensions, or so-called bosses, that one can challenge to test the depths
+of their dimension, or even to compete with others over how far they have reached.
+
+You can receive massive rewards from clearing a floor, although each floor is extremely hard and
+might take some of you a few attempts and **you can only ever clear a single floor once.**
+
+You can view one of the floors, or your current floor by using the `/celina floor` command and you can challenge
+the tower by using the `/celina challenge` command.
+
+To view the global leaderboard of the tower, you can use the `/celina leaderboard` command.
+
+Related Topics:
+- [Creating Your Dimension](/guide/creating-your-dimension)
+- [Statistics Summarized](/guide/statistics-summarized)
+- [Understanding Structures](/guide/understanding-structures)
+- [Understanding Dimension Statistics](/guide/understanding-dimension-statistics)
+- [Raiding Users](/guide/raiding-users)

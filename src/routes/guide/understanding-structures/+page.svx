@@ -1,0 +1,35 @@
+---
+title: Understanding Structures
+rank: 4
+---
+
+Structures are a fundamental and core part of Bellus, these dictates how much resources you can acquire, and even how
+much resources you have. Currently, or as of writing, there are two structures that play a core part in the game and those are:
+1. Barracks
+2. Bakeries
+
+To understand them and what they influence, let us delve deeper into them one by one.
+
+### Barracks
+These are structures that are used to hold troops in your dimension. **Each one of these can hold 10 troops** and
+is one of the most important structures to have. You can create barracks by using `dimension infrastructures` command
+which costs around 50 battle points and can take up to 30 minutes to construct.
+
+### Bakeries
+Bakeries are considered as another heavy factor in raiding, these structures produces what are called **"elixirs"** and
+these elixirs can be used to recruit new troops. Each bakery can hold **350 elixirs maximum** before needing to be collected,
+which means that you can collect 350 elixirs maximum per bakery, they also produce elixirs at a rate of **0.23 elixirs per second**
+or **13.8 elixirs per minute** per bakery.
+
+Constructing one can take **100 battle points** and can take **25 minutes** to complete.
+
+### Viewing or building your infrastructures
+
+You can view or build individual statistics, and more updated per-statistic (in case this page gets outdated), in the bot by using
+`/dimension infrastructures`.
+
+Related Topics:
+- [Creating Your Dimension](/guide/creating-your-dimension)
+- [Statistics Summarized](/guide/statistics-summarized)
+- [Understanding Dimension Statistics](/guide/understanding-dimension-statistics)
+- [Raiding Users](/guide/raiding-users)

@@ -1,0 +1,17 @@
+---
+title: Creating Your Dimension
+rank: 1
+---
+
+To create a dimension in Bellus, all you need to do is run the following command: `dimension create` and it should create
+a dimension for you. At your starting point, you should receive **1x barracks**, **1x bakery**, **20 battle points**,
+**5 statistic points** and **250 elixirs**.
+
+At this stage, you do not have any statistics and need to allocate some, in order to start raiding other users and
+also to expand further. To learn more about those, feel free to check the below articles.
+
+Related Topics:
+- [Statistics Summarized](/guide/statistics-summarized)
+- [Understanding Dimension Statistics](/guide/understanding-dimension-statistics)
+- [Understanding Structures](/guide/understanding-structures)
+- [Raiding Users](/guide/raiding-users)

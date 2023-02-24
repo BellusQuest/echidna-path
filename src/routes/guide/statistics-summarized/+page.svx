@@ -1,0 +1,46 @@
+---
+title: Statistics Summarized
+rank: 2
+---
+
+You can read this article in Discord by using `/dimension statistics info`
+
+Statistics are a core part of Bellus: Dimension Raids. It is a major factor during battles such as raids. Statistics are categorized into two: user and dimension.
+
+User statistics are more closer to currencies, such as, but not limited to: statistic points, battle points and elixirs.
+
+Dimension statistics are those that influence the direct flow of battle, such as, but not limited to: attack, health, troops, and defense.
+
+To elaborate more on each statistic, how to acquire them and what they affect:
+
+### Statistic Points
+Use: Convert into a dimension statistic.
+
+Acquisition: You can convert battle points to statistic points at a rate of **95 battle points per
+statistic point** by using `/dimension statistics add` command.
+
+### Battle Points
+Use: To build dimension structures, and convert into statistic points.
+
+Acquisition: You can only acquire this statistic by raiding or anything that involves battles.
+
+### Elixirs
+Use: Convert into more expendable statistics such as troops.
+
+Acquisition: You can acquire elixirs by collecting them from bakeries using the `/dimension resources collect` command.
+
+### Attack, Defense, Health
+Use: Directly influences the statistics of each troop.
+
+Acquisition: You can only acquire this statistic by converting from statistic point.
+
+### Troops
+Use: A primary factor of raids, and the most expendable.
+
+Acquisition: You can only acquire this statistic by converting elixirs at a rate of **25 elixirs per troop**. by using `/dimension statistics add` command.
+
+Related Topics:
+- [Creating Your Dimension](/guide/creating-your-dimension)
+- [Understanding Structures](/guide/understanding-structures)
+- [Understanding Dimension Statistics](/guide/understanding-dimension-statistics)
+- [Raiding Users](/guide/raiding-users)

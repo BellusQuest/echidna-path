@@ -1,0 +1,35 @@
+---
+title: Raiding Users
+rank: 5
+---
+
+Raiding users is the main part of how one can earn resources in Bellus. In raiding users, you earn what is called **"battle points"**
+that can be converted down to statistic points or even be used to build new structures. To raid a random user, you can use the
+`/raid` command which you can further specify down to indicate how many troops you want to use for the raid.
+
+Each raid is interactive, and how you win the battle depends massively on how you play. To understand each possible action that
+we can take while retreating, let us first understand the possible actions we can take during a raid:
+1. Siege Attack
+2. Gather Intelligence
+3. Rest
+4. Retreat
+
+Each of these actions, with the exception of retreat, have a chance of failing or even being countered, therefore, you should
+anticipate all situations. To understand what each of these actions does though, here are the explanations:
+1. **Siege Attack** performs an attack based on a random amount of troops alive, for example, if you have 30 troops, then there is a
+possibly that only 12 of those troops will attack. This action has a chance of either failing or even being countered, and can be risky.
+2. **Gather Intelligence** is used to increase your attack statistic, this is a chance-based action where you either gain no intelligence,
+gain intelligence or be attacked during the intelligence gathering. If successful, this can yield quite some additional damage.
+3. **Rest** is as the name indicates, you tell your troops to take a rest which can give them a chance to regain more health points
+that was lost, but this has a chance of being attacked by the offending side, therefore, this isn't the safest choice.
+4. **Retreat** is when you completely surrender in the battle, **this will assume a defeat, therefore, all your troops that are involved
+in the battle are lost**.
+
+Losing a raid would reduce battle points from you, and if you do not have enough battle points, it will take your elixirs, but if you win,
+then you can yield some nice resources that can be used further to gain more power.
+
+Related Topics:
+- [Creating Your Dimension](/guide/creating-your-dimension)
+- [Statistics Summarized](/guide/statistics-summarized)
+- [Understanding Dimension Statistics](/guide/understanding-dimension-statistics)
+- [Understanding Structures](/guide/understanding-structures)
