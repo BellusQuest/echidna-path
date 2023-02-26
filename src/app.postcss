@@ -29,3 +29,35 @@
         @apply text-blue-300 hover:opacity-80 duration-500 transition;
     }
 }
+
+.slanted-transition-right {
+    transform-style: preserve-3d;
+    animation: slanted-transition-right 1s;
+}
+@keyframes slanted-transition-right {
+    0% {
+        transform: translate3d(0px, 0%, 0px) scale3d(82%, 1, 1) rotateX(10deg) rotateY(10deg) rotateZ(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0px, 0%, 3px) scale3d(1, 1, 1) rotate(0deg); transform-style: preserve-3d;
+        opacity: 100;
+    }
+}
+.slant-hover:hover {
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 82%) rotateX(10deg) rotateY(10deg) rotateZ(0deg);
+}
+.slanted-transition-left {
+    transform-style: preserve-3d;
+    animation: slanted-transition-left 1s;
+}
+@keyframes slanted-transition-left {
+    0% {
+        transform: translate3d(0px, 0%, 10px) scale3d(76%, 1, 1) rotateX(10deg) rotateY(10deg) rotateZ(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0px, 0%, 3px) scale3d(1, 1, 1) rotate(0deg); transform-style: preserve-3d;
+        opacity: 100;
+    }
+}

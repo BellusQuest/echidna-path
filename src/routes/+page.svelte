@@ -14,39 +14,6 @@
     }
     contents.sort((a, b) => a.rank-b.rank)
 </script>
-<style>
-    .slanted-transition-right {
-        transform-style: preserve-3d;
-        animation: slanted-transition-right 1s;
-    }
-    @keyframes slanted-transition-right {
-        0% {
-            transform: translate3d(0px, 0%, 0px) scale3d(82%, 1, 1) rotateX(10deg) rotateY(10deg) rotateZ(0deg);
-            opacity: 0;
-        }
-        100% {
-            transform: translate3d(0px, 0%, 3px) scale3d(1, 1, 1) rotate(0deg); transform-style: preserve-3d;
-            opacity: 100;
-        }
-    }
-    .slant-hover:hover {
-        transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 82%) rotateX(10deg) rotateY(10deg) rotateZ(0deg);
-    }
-    .slanted-transition-left {
-        transform-style: preserve-3d;
-        animation: slanted-transition-left 1s;
-    }
-    @keyframes slanted-transition-left {
-        0% {
-            transform: translate3d(0px, 0%, 10px) scale3d(76%, 10%, 1) rotateX(10deg) rotateY(10deg) rotateZ(0deg);
-            opacity: 0;
-        }
-        100% {
-            transform: translate3d(0px, 0%, 3px) scale3d(1, 1, 1) rotate(0deg); transform-style: preserve-3d;
-            opacity: 100;
-        }
-    }
-</style>
 <svelte:head>
     <title>Echidna's Path</title>
 </svelte:head>
@@ -60,7 +27,7 @@
             <h3 class="sofia font-light leading-none">the official guide to start with bellus: dimension raid</h3>
         </div>
     </div>
-    <div class="flex flex-col sofia slanted-transition-left py-4 delay-1000 font-light gap-3">
+    <div class="flex flex-col sofia slanted-transition-right py-4 delay-1000 font-light gap-3">
         <p>
             Welcome to Echidna's Path, an official guide to playing Bellus: Dimension Raid, written by the infamous
             and mysterious, virtual character named Echidna. In this guide, you will learn the general mechanisms
