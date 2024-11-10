@@ -29,15 +29,19 @@ Use: Convert into more expendable statistics such as troops.
 
 Acquisition: You can acquire elixirs by collecting them from bakeries using the `/dimension resources collect` command.
 
-### Attack, Defense, Health
+### Attack, Defense
 Use: Directly influences the statistics of each troop.
 
 Acquisition: You can only acquire this statistic by converting from statistic point.
 
-### Troops
-Use: A primary factor of raids, and the most expendable.
+### Luck
+Use: Determines the chance of evasion, and success of different actions.
+Acquisition: You can only acquire this statistic by converting from statistic point.
 
-Acquisition: You can only acquire this statistic by converting elixirs at a rate of **25 elixirs per troop**. by using `/dimension statistics add` command.
+### Troops
+Use: A primary factor of raids, and the most expendable.  Each troop is used in battle during a raid or a defense, and will amplify your attack and health.
+
+Acquisition: You can only acquire this statistic by converting elixirs at a rate of **25 elixirs per troop**. by using `/dimension recruit` command.
 
 Related Topics:
 - [Creating Your Dimension](/guide/creating-your-dimension)
