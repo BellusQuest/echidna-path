@@ -3,33 +3,29 @@ title: Understanding Dimension Statistics
 rank: 3
 ---
 
-In Bellus, there are three core dimension statistics that will influence the flow of battle, this excludes the expendable factors
+In Bellus, three core dimension statistics will influence the flow of battle, this excludes the expendable factors
 such as troops, the three core dimension statistics that we will talk about are:
 - **Health**
 - **Attack**
-- **Defense**
+- **Luck**
 
 To understand how these factors affect the flow of battle, we first have to understand the matchmaking algorithm, the
 matchmaking algorithm matches you with users that are ±20% that of your total power level (inclusive of troops), but in general,
-your base power level is calculated from attack, health and defense with health and attack having the most weight.
+your base power level is calculated from attack, health, and luck with health and attack having the most weight.
 
 Your **attack** dictates how much damage each troop can pull in a single attack, for example, if you have an attack of
 3 and a troop count of 6, there is a possibility that, if all your troops were to attack, the damage dealt would be
 3 × 6 or 18.
 
-In the other side, your **health** dictates how much damage each individual troop can have, this is calculated first by
+On the other side, your **health** dictates how much damage each troop can have, this is calculated first by
 the formula `(health × 5 + 3)` which means that if you have 3 health points, you'd have 18 health per troop, or if you have
 6 troops would mean that you have 108 total health.
 
-An additional statistic that would give defending dimensions a boost is the **defense** statistic, this has a lower weight
-in the matchmaking algorithm, but it still is a high factor that can dictate the flow of battle. The defense statistic is
-a boost to your per-troop, it is calculated by the formula `(defense * 0.578)` which would mean that a person with 3 defense
-would receive 1.7 (rounded to 2) health points per troop.
+The third statistic is "**luck**" which dictates how successful an action is. Luck isn't the most easily understood factor as it's 
+mixed with multiple other internal factors to identify how successful an action, such as resting, attacking, or related may be, but it is 
+a greater factor and will help you potentially evade a potentially fatal attack.
 
-It isn't a significant boost, but an additional 2 points per troop to your already 18 points would mean that have a total of
-120 total health which is 14 health points higher.
-
-And so, those are why these factors affects the flow of battle as much. Therefore, it is best to decide well over how to
+And so, those are why these factors affect the flow of battle as much. Therefore, it is best to decide well over how to
 allocate your statistics.
 
 To allocate your statistics, you can use the `dimension statistic add` command.
