@@ -13,7 +13,7 @@ To understand them and what they influence, let us delve deeper into them one by
 ### Barracks
 These are structures that are used to hold troops in your dimension. **Each one of these can hold 10 troops** and
 is one of the most important structures to have. You can create barracks by using `dimension infrastructures` command
-which costs around 50 battle points and can take up to 30 minutes to construct.
+which costs 95 battle points for your second barracks and can take up to 30 minutes to construct.
 
 ### Bakeries
 Bakeries are considered as another heavy factor in raiding, these structures produces what are called **"elixirs"** and
@@ -21,7 +21,7 @@ these elixirs can be used to recruit new troops. Each bakery can hold **350 elix
 which means that you can collect 350 elixirs maximum per bakery, they also produce elixirs at a rate of **0.23 elixirs per second**
 or **13.8 elixirs per minute** per bakery.
 
-Constructing one can take **100 battle points** and can take **25 minutes** to complete.
+Constructing your second bakery can take **150 battle points** and can take **25 minutes** to complete.
 
 ### Viewing or building your infrastructures
 
